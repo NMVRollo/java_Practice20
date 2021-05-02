@@ -1,0 +1,46 @@
+1266 [main] INFO  c.e.P.Practice20Application
+                – Starting Practice20Application using Java 15.0.2 on DESKTOP-K7IN7AN with PID 2812 (C:\Users\killi\IdeaProjects\Practice20\build\classes\java\main started by killi in C:\Users\killi\IdeaProjects\Practice20)
+1269 [main] INFO  c.e.P.Practice20Application
+                – No active profile set, falling back to default profiles: default
+2033 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2122 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2753 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 80 (http)
+2763 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-80"]
+2764 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2764 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.45]
+2883 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2884 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1565 ms
+3091 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3404 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+3455 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3513 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.30.Final
+3668 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3814 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4492 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4505 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4984 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5115 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+5413 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-80"]
+5438 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 80 (http) with context path ''
+5452 [main] INFO  c.e.P.Practice20Application
+                – Started Practice20Application in 4.61 seconds (JVM running for 6.2)
